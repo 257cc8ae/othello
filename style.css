@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.othello_area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 656px;
+    background-color: #47845E;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.trout {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.stone {
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.stone_2 {
+    background-color: #fff;
+}
+
+.stone_1 {
+    background-color: #000;
+}
+
+.can_put_on {
+    background-color: red;
+}
