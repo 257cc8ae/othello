@@ -238,7 +238,7 @@ function judgeWinOrLose(placement) {
     let black = placement.filter(n => n === 1).length;
     let white = placement.filter(n => n === 2).length;
     if (black > white) {
-        alert(`黒${black}対白${white}であなたの負け`)
+        alert(`黒${black}対白${white}であなたの勝ち`)
     } else if (white > black) {
         alert(`黒${black}対白${white}であなたの負け`)
     } else {
